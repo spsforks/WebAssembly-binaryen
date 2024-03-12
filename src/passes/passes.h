@@ -115,6 +115,7 @@ Pass* createOutliningPass();
 Pass* createPickLoadSignsPass();
 Pass* createModAsyncifyAlwaysOnlyUnwindPass();
 Pass* createModAsyncifyNeverUnwindPass();
+Pass* createLLVMNonTrappingFPToIntLoweringPass();
 Pass* createPoppifyPass();
 Pass* createPostEmscriptenPass();
 Pass* createPrecomputePass();
